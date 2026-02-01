@@ -15,59 +15,60 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-*/
+	/*
+	window#waybar.empty {
+	    background-color: transparent;
+	}
+	window#waybar.solo {
+	    background-color: #FFFFFF;
+	}
+	*/
 
-window#waybar.termite {
-}
+	window#waybar.termite {
+	}
 
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
-}
+	window#waybar.chromium {
+	    background-color: #000000;
+	    border: none;
+	}
 
-button {
-    /* Use box-shadow instead of border so the text isn't offset */
-    /* Avoid rounded borders under each button name */
-    border: none;
-    border-radius: 0;
-}
+	button {
+	    /* Use box-shadow instead of border so the text isn't offset */
+	    /* Avoid rounded borders under each button name */
+	    border: none;
+	    border-radius: 0;
+	}
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
-button:hover {
-    background: inherit;
-}
+	/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+	button:hover {
+	    background: inherit;
+	}
 
-/* you can set a style on hover for any module like this */
-#pulseaudio:hover {
-}
+	/* you can set a style on hover for any module like this */
+	#pulseaudio:hover {
+	}
 
-#workspaces button {
-    border: 1px solid #404040;
-    padding: 0 3px;
-    background-color: #222222;
-    color: #505355;
-}
+	#workspaces button {
+	    border: 1px solid #404040;
+	    padding: 0 3px;
+	    background-color: #222222;
+	    color: #505355;
+	}
 
-#workspaces button:hover {
-    border: 1px solid #404040;
-    background-color: #b8bb26;
-    color: #000000;
-}
+	#workspaces button:hover {
+	    border: 1px solid #404040;
+	    background-color: #b8bb26;
+	    color: #000000;
+	    box-shadow: none;
+	}
 
-#workspaces button.focused {
-    border: 1px solid #000000;
-    background-color: #b8bb26;
-    color: #000000;
-}
+	#workspaces button.focused {
+	    border: 1px solid #000000;
+	    background-color: #b8bb26;
+	    color: #000000;
+	}
 
-#workspaces button.urgent {
+	#workspaces button.urgent {
     background-color: #eb4d4b;
 }
 
